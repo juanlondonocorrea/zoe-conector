@@ -1,0 +1,24 @@
+------------------------------------
+INSTALL
+------------------------------------
+1. pre-requisites
+
+- Quickbooks web connector 2.1.0.30 or posterior installed in QuickBooks machine
+- Java JRE 1.8 or posterior on installation machine
+- check in file piloch.qwc (edit) the property AppURL and change <HOST_WHERE_SERVICE_WILL_RUN>
+ 
+ <AppURL>http://<HOST_WHERE_SERVICE_WILL_RUN>:54320/GeneralQueryRqSoapImpl</AppURL>
+
+
+2. On quickbooks web connector machine, using Explorer, run piloch.qwc.  
+It must be install an application entry on QuickBooks Web Connector
+
+3. On service machine, run the jar (JRE 1.8 must be installed).  java -jar JavaQuickBooksWebConnector-0.0.1-SNAPSHOT.jar
+Check message that indicate that services are running
+Web connector webservice integrator is running in http://localhost:54320/GeneralQueryRqSoapImpl
+Mobile Synchronizer Service  is running in http://localhost:54320/SyncService
+
+
+Test with soapui the SyncService
+check if QuickBooks web connector is consuming the GeneralQueryRQSoapImpl
+ 

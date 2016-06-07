@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+   <project name="Make Jar" default="package">
+   
+   	<!-- First, I create my classpath (build.classpath) from all the jar files in my lib directory -->
+   	<path id="build.classpath">
+   	  <fileset dir="lib">
+   	    <include name="**/*.jar" />
+   	  </fileset>
+   	</path>
+
+   	<!-- Next, my package task uses that classpath -->
+   	<target name="package" >
+   	  <echo>=== PACKAGE ===</echo>
+   	  
+   	  <!-- convert build.classpath to mf.classpath (the string needed for the manifest task) -->
+   	  <pathconvert property="mf.classpath" pathsep="${line.separator}">
+   	      <path refid="build.classpath" />
+   	      <flattenmapper />
+   	  </pathconvert>
+
+   	  <!-- now build the manifest file, using mf.classpath -->
+   	  <tstamp/><!-- needed for TODAY -->
+   	  <!--manifest file="MANIFEST.MF">
+   	    <attribute name="Built-By" value="Juan Londono"/>
+   	    <attribute name="Created-By" value="JuanLondono"/>
+   	    <attribute name="Main-Class" value="com.harana.quickbooks.ws.RunServices"/>
+   	    <attribute name="Built-Date" value="${TODAY}"/>
+   	    <attribute name="Class-Path" value="${mf.classpath}" />
+   	  </manifest-->
+   	  
+   	  
+   	  <copy todir="build">
+   	    <fileset dir="target/classes"/>
+   	  </copy>
+   		
+
+   	</target>   
+</project>

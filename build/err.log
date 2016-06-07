@@ -1,0 +1,68 @@
+[YourKit Java Profiler 2015 build 15068] Log file: C:\Users\JuanFernando\.yjp\log\RunServices-12936.log
+Bad level value for property: java.util.logging.ConsoleHandler.level
+Bad level value for property: com.harana.quickbooks.ws.level
+Bad level value for property: .level
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Can't set level for java.util.logging.ConsoleHandler
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout 38cbee47-a1ff-4051-bb37-3c33fc027638
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout 76279529-bfa1-4c52-b320-898f78d0f593
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout dd00dd96-393d-4a05-97d3-88f637cdadca
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout b53b319e-ad88-4ede-ac1a-94865f007839
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout ad4f7aa7-961f-4119-9151-1e8ed0dbce2b
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout 5fd6da51-03ba-4793-a0c2-39d72eb53bf6
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout fe6523bf-ad59-4605-97aa-0c20d63459eb
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout 76448727-8489-4fb1-a202-f245c74a7542
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout e19ef6f7-cd1e-40b5-bdb4-5188daf593bb
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout e725fa90-69ba-4fc1-b4a7-24d5b62ce0f2
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message e19ef6f7-cd1e-40b5-bdb4-5188daf593bbchanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message 76448727-8489-4fb1-a202-f245c74a7542changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message fe6523bf-ad59-4605-97aa-0c20d63459ebchanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message 5fd6da51-03ba-4793-a0c2-39d72eb53bf6changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message ad4f7aa7-961f-4119-9151-1e8ed0dbce2bchanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message b53b319e-ad88-4ede-ac1a-94865f007839changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message dd00dd96-393d-4a05-97d3-88f637cdadcachanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message 76279529-bfa1-4c52-b320-898f78d0f593changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message e725fa90-69ba-4fc1-b4a7-24d5b62ce0f2changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:31:54 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message 38cbee47-a1ff-4051-bb37-3c33fc027638changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout 43cfd423-cec6-466d-8df4-733a2e261f00
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout cd0fc815-d5e8-4d15-8c5e-f181abd7c8dc
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout a3ecb807-dee8-4291-a8c7-237fc804acc7
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout ca8d6fd0-dd1c-4235-a5ad-34a82a05d2bf
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager receive
+INFORMACIÓN: message timedout bd63de3b-fe7f-476e-abdc-82f34191da9a
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message ca8d6fd0-dd1c-4235-a5ad-34a82a05d2bfchanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message a3ecb807-dee8-4291-a8c7-237fc804acc7changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message cd0fc815-d5e8-4d15-8c5e-f181abd7c8dcchanging status from  CREATED to TIMEDOUT
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message 43cfd423-cec6-466d-8df4-733a2e261f00changing status from  CREATED to TIMEDOUT
+jul 31, 2015 3:56:57 PM com.harana.quickbooks.ws.MessageManager changeMessageStatus
+INFORMACIÓN: message bd63de3b-fe7f-476e-abdc-82f34191da9achanging status from  CREATED to TIMEDOUT

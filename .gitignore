@@ -1,0 +1,3 @@
+bin/*
+target/*
+/build/com/harana/quickbooks/ws/*.class
